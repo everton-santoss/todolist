@@ -1,0 +1,29 @@
+.spanStatus {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between; 
+
+    margin-top: 5rem;
+}
+
+.spanCreated {
+    color: #4EA8DE;
+    font-weight: 700;
+    font-size: 1.2rem;  
+}
+
+.spanCompleted {
+    color: #8284FA;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.spanStatusIn, .spanStatusOn {
+    background: #333333;
+    color: white;
+
+    margin-left: .5rem;
+
+    padding: 2.5px 10px;
+    border-radius: 10px;
+}

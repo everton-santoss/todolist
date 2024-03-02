@@ -1,0 +1,62 @@
+.container {
+    background: #333333;
+    width: 100%;
+    height: 5rem;
+
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: start;
+
+    margin-top: 2rem;
+    padding-left: 1rem;
+
+    gap: 1rem;
+}
+
+.title {
+    color: #c2bebe;
+
+    flex-grow: 1;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+
+.buttonCheck{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+
+    background: none;
+    border: solid 2px #4EA8DE;
+
+    cursor: pointer;
+
+    transition: background .3s;
+}
+
+.buttonCheck:hover {
+    background: #2a5976;
+}
+
+.buttonDelete {
+    background: transparent;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    color: #605b5b;
+
+    transition: color .8s;
+}
+
+.buttonDelete:hover {
+    background: transparent;
+    color: #E25858;
+    border-radius: 2px;
+    box-sizing: content-box;
+}
+
+.Check {
+    color: white;
+}

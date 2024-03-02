@@ -1,0 +1,47 @@
+.taskTitle {
+    background: #333333;
+    color: #F2F2F2;
+    margin-top: 1.2rem;
+    width: 100%;
+    height: 4rem;
+
+    border-radius: 8px;
+
+    padding: 1.2rem;
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    letter-spacing: 1px;
+}
+
+
+.spanLine {
+    margin-top: 3rem;
+    height: 8px;
+    border: 1px solid #333333;
+    border-radius: 8px 8px 1px 1px;
+    border-bottom: none;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.Artzero {
+    margin-top: 6rem;
+    margin-left: 11rem;
+}
+
+.Strong {
+    color: #808080;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.Span {
+    color: #494646;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 3rem;
+}

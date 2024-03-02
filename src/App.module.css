@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html, body, input, button, span {
+    font-family: "Inter", sans-serif;
+}
+
+
+body {
+    background: #1E1E1E;
+}
+
+.Task {
+    width: 39.8rem;
+    height: 3.3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+    border: none;
+
+}
+
+.StylesTask {
+    width: 46rem;
+
+    margin: auto;
+
+    display: grid;
+}
+
